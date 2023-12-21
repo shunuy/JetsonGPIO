@@ -1,0 +1,2 @@
+* -diff
+# 这个命令也无效  git config --global core.filemode false

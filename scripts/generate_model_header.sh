@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Model.h file path
+#  Model.h file path
 HEADER_FILE=$1
 
 # JETSON_MODELS values

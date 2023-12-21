@@ -45,7 +45,8 @@ int main()
     signal(SIGINT, signalHandler);
 
     // Pin Definitions
-    int output_pin = 18; // BOARD pin 12, BCM pin 18
+    // int output_pin = 18; // BOARD pin 12, BCM pin 18
+    int output_pin = 21; // BOARD pin 40, BCM pin 21
 
     // Pin Setup.
     GPIO::setmode(GPIO::BCM);
