@@ -32,6 +32,7 @@ set(JetsonGPIO_LIB_SRCS
     ${CMAKE_CURRENT_SOURCE_DIR}/src/ModelUtility.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/WaitResult.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/LazyString.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/jetgpio.cpp
     )
 
 # Generate a *Config.h header in the build directory
